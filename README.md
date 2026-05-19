@@ -14,3 +14,5 @@ Objectives
 🤖 Train a machine learning model
 ⚙️ Optimize model performance
 📈 Evaluate prediction accuracy
+
+-How to RUN the project-
