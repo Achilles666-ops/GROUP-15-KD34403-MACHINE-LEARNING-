@@ -19,3 +19,6 @@ Objectives
 
 STEP 1:
 Download the dataset "mental_health.csv"
+
+Make sure the dataset contains all required columns like:
+depression, anxiety, isolation, academic_pressure, cgpa etc.
