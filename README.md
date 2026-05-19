@@ -20,7 +20,7 @@ Objectives
 The dataset used is `mental_health.csv`, which contains survey responses from university students. The key features (input parameters) include:
 
 | Feature | Description |
-
+|---|---|
 | `gender` | Student's gender (Male / Female) |
 | `academic_year` | Current year of study (1st – 4th year) |
 | `residential_status` | On-Campus or Off-Campus |
@@ -31,6 +31,7 @@ The dataset used is `mental_health.csv`, which contains survey responses from un
 The *target variable* is:
 
 | Target | Description |
+|---|---|
 | `cgpa` | CGPA range of the student (e.g., 3.0–3.5, 3.5–4.0) |
 
 ⚙️ Machine Learning Pipeline
