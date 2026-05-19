@@ -15,6 +15,36 @@ Objectives
 ⚙️ Optimize model performance
 📈 Evaluate prediction accuracy
 
+📊 Dataset
+
+The dataset used is `mental_health.csv`, which contains survey responses from university students. The key features (input parameters) include:
+
+| Feature | Description |
+
+| `gender` | Student's gender (Male / Female) |
+| `academic_year` | Current year of study (1st – 4th year) |
+| `residential_status` | On-Campus or Off-Campus |
+| `campus_discrimination` | Whether the student experienced discrimination (Yes / No) |
+| `sports_engagement` | Frequency of sports participation per week |
+| `average_sleep` | Average daily sleep duration |
+
+The *target variable* is:
+
+| Target | Description |
+| `cgpa` | CGPA range of the student (e.g., 3.0–3.5, 3.5–4.0) |
+
+⚙️ Machine Learning Pipeline
+
+The project is structured across multiple milestones:
+
+| Milestone | Description |
+|---|---|
+| **Milestone 1** | Data loading, cleaning, and preprocessing — encoding categorical variables and removing invalid entries |
+| **Milestone 2** | Model selection — evaluating and comparing suitable classification algorithms for the prediction task |
+| **Milestone 3** | Model training — training the selected model on the preprocessed dataset |
+| **Milestone 4** | Hyperparameter tuning and model optimization |
+| **Milestone 5** | Model evaluation using metrics such as accuracy, precision, recall, and confusion matrix |
+
 
 ## 🚀 How to Run the Project in Google Colab
 
