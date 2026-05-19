@@ -15,25 +15,18 @@ Objectives
 ⚙️ Optimize model performance
 📈 Evaluate prediction accuracy
 
--How to RUN the project in Google Colab-
-
-STEP 1:
-Download the dataset "mental_health.csv"
-
-Make sure the dataset contains all required columns like:
-depression, anxiety, isolation, academic_pressure, cgpa etc.
 
 ## 🚀 How to Run the Project in Google Colab
 
 Follow these steps to run each milestone of the project in Google Colab.
 
 ---
-Step 2: Open Google Colab
+Step 1: Open Google Colab
 
 Go to [https://colab.research.google.com](https://colab.research.google.com) and sign in with your Google account.
 
 ---
-Step 3: Clone the Repository
+Step 2: Clone the Repository
 
 In a new Colab notebook, run the following cell to clone this repository:
 
@@ -44,7 +37,7 @@ In a new Colab notebook, run the following cell to clone this repository:
 
 ---
 
-Step 4: Upload the Dataset (if needed)
+Step 3: Upload the Dataset (if needed)
 
 The dataset `mental_health.csv` is already included in the repository. After cloning, it will be available in your working directory. You can verify it with:
 
@@ -62,7 +55,7 @@ uploaded = files.upload()
 
 ---
 
-Step 5: Install Required Libraries
+Step 4: Install Required Libraries
 
 Most libraries are pre-installed in Colab. If any are missing, install them with:
 
@@ -72,7 +65,7 @@ Most libraries are pre-installed in Colab. If any are missing, install them with
 
 ---
 
-Step 6: Run the Milestone Files
+Step 5: Run the Milestone Files
 
 Run each milestone script in order using the `exec()` function or by copying the code into Colab cells.
 
@@ -97,6 +90,6 @@ exec(open("Milestone 5 Code.py").read())
 ```
 
 
-Step 7: View Results
+Step 6: View Results
 
 After running each script, outputs such as accuracy scores, confusion matrices, and plots will be displayed directly in the Colab notebook.
