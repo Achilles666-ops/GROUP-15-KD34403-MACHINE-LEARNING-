@@ -16,3 +16,6 @@ Objectives
 📈 Evaluate prediction accuracy
 
 -How to RUN the project in Google Colab-
+
+STEP 1:
+Download the dataset "mental_health.csv"
