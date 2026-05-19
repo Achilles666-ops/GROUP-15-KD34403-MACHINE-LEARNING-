@@ -15,4 +15,4 @@ Objectives
 ⚙️ Optimize model performance
 📈 Evaluate prediction accuracy
 
--How to RUN the project-
+-How to RUN the project in Google Colab-
