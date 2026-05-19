@@ -3,22 +3,22 @@ import pandas as pd
 input_file = "mental_health.csv"
 output_file = "cleaned_dataset_numeric.csv"
 
-# --- Load the dataset ---
+#Load the dataset
 df = pd.read_csv(input_file)
 
-# --- Trim whitespace from all string columns ---
+#Trim whitespace from all string columns
 df = df.apply(lambda col: col.str.strip() if col.dtype == "object" else col)
 
-# --- Remove rows with invalid CGPA ---
+#Remove rows with invalid CGPA
 df = df[df["cgpa"] != "0.0-0.0"]
 
-# --- Remove rows with any missing/empty fields ---
+#Remove rows with any missing/empty fields
 df = df.dropna()
 df = df[~df.apply(lambda row: row.astype(str).str.strip().eq("").any(), axis=1)]
 
 removed_rows = len(pd.read_csv(input_file)) - len(df)
 
-# --- Encode categorical columns ---
+#Encode categorical columns
 gender_map = {"Male": 0, "Female": 1}
 year_map = {"1st year": 1, "2nd year": 2, "3rd year": 3, "4th year": 4}
 cgpa_map = {
