@@ -96,9 +96,6 @@ exec(open("Milestone 4 Code.py").read())
 exec(open("Milestone 5 Code.py").read())
 ```
 
-> ⚠️ **Note:** Run Milestone 1 first, as it generates `cleaned_dataset_numeric.csv` which is required by the later milestones.
-
----
 
 Step 7: View Results
 
